@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User Should be able to change the color of the background to skyblue",
+        "description": "",
+        "id": "set-skywhite-background;user-should-be-able-to-change-the-color-of-the-background-to-skyblue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5224792900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Set Skyblue Background button exists",
+            "match": {
+              "location": "MainStepDefinition.set_skyblue_background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3091353100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the button",
+            "match": {
+              "location": "MainStepDefinition.when_i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 320159299,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "MainStepDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Set Skywhite Background",
+    "description": "",
+    "id": "set-skywhite-background",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/MainPage.feature"
+  }
+]
